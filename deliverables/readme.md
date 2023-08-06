@@ -1,22 +1,23 @@
-## Script Description
+## Documents Description
 
 ```
 - readme.md
 ---- DESCRIPTION OF STRUCTURE
 ----------------
 ----------------
-- script 1
+- document 1
 ---- DESCRIPTION
 ---- ORDER
 ---------------- 
 ----------------
-- script 2
+- document 2
 ---- DESCRIPTION
 ---- ORDER
 ---------------- 
 ----------------
-- script 3
+- document 3
 ---- DESCRIPTION
 ---- ORDER
 ---------------- 
 ```
+
