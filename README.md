@@ -19,7 +19,7 @@ In recent years, there has been a growing interest in understanding the factors 
 
 ### __Results__    
 
-!["Figure"]()
+!["Figure"](https://github.com/njones738/Mapping-Post-Secondary-Transfer-Rates/blob/main/data/images/figures.JPG)
 
 * __University Transfer Rates between Schools within 100 miles (Figure 1):__ Figure 1 shows the location of each school as a gold dot (or vertex) on a map. The size of each dot represents the number of undergraduate students at the school. When two schools are within 100 miles of each other, a red line (or edge) connects them. The width of this line reflects the school's transfer rate, with wider lines indicating higher transfer rates. From this visualization, we can observe that areas with fewer schools seem to have fewer and thinner connecting lines, which might suggest lower transfer rates. 
 
