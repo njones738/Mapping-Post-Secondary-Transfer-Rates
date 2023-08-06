@@ -11,6 +11,5 @@
 ----------------
 - state_region.csv
 ---- Contains labels the region of the U.S. a state is in
----- ORDER
 ---------------- 
 ```
