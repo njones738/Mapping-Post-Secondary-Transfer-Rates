@@ -40,9 +40,13 @@ In recent years, there has been a growing interest in understanding the factors 
 ---- 
 - data
 ---- readme.md
+---- images
+---- Data_Dictionary.csv
+---- state_region.csv
 ---- 
-- documents
+- deliverables
 ---- readme.md
+---- Mapping Post-Secondary Transfer Rates.pdf
 ---- 
 ```
 

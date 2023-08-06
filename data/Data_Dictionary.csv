@@ -1,0 +1,558 @@
+index,Variable,NAME OF DATA ELEMENT,n,nmiss,n_pct,nmiss_pct
+0,UNITID,Unit ID for institution,6072,0,100,0
+1,OPEID,8-digit OPE ID for institution,6055,17,100,0
+2,OPEID6,6-digit OPE ID for institution,6055,17,100,0
+3,INSTNM,Institution name,6072,0,100,0
+4,CITY,City,6072,0,100,0
+5,STABBR,State postcode,6072,0,100,0
+6,ZIP,ZIP code,6072,0,100,0
+7,ACCREDAGENCY,Accreditor for institution,5886,186,97,3
+8,INSTURL,URL for institution's homepage,6072,0,100,0
+9,HCM2,Schools that are on Heightened Cash Monitoring 2 by the Department of Education,6072,0,100,0
+10,MAIN,Flag for main campus,6072,0,100,0
+11,NUMBRANCH,Number of branch campuses,6072,0,100,0
+12,PREDDEG,"Predominant undergraduate degree awarded
+ 0 Not classified
+ 1 Predominantly certificate-degree granting
+ 2 Predominantly associate's-degree granting
+ 3 Predominantly bachelor's-degree granting
+ 4 Entirely graduate-degree granting",6072,0,100,0
+13,HIGHDEG,"Highest degree awarded
+ 0 Non-degree-granting
+ 1 Certificate degree
+ 2 Associate degree
+ 3 Bachelor's degree
+ 4 Graduate degree",6072,0,100,0
+14,CONTROL,Control of institution,6072,0,100,0
+15,ST_FIPS,FIPS code for state,6072,0,100,0
+16,REGION,Region (IPEDS),6072,0,100,0
+17,LOCALE,Locale of institution,6072,0,100,0
+18,LATITUDE,Latitude,6072,0,100,0
+19,LONGITUDE,Longitude,6072,0,100,0
+20,CCBASIC,Carnegie Classification -- basic,6072,0,100,0
+21,CCUGPROF,Carnegie Classification -- undergraduate profile,6072,0,100,0
+22,CCSIZSET,Carnegie Classification -- size and setting,6072,0,100,0
+23,HBCU,Flag for Historically Black College and University,6070,2,100,0
+24,PBI,Flag for predominantly black institution,6070,2,100,0
+25,ANNHI,Flag for Alaska Native Native Hawaiian serving institution,6070,2,100,0
+26,TRIBAL,Flag for tribal college and university,6070,2,100,0
+27,AANAPII,Flag for Asian American Native American Pacific Islander-serving institution,6070,2,100,0
+28,HSI,Flag for Hispanic-serving institution,6070,2,100,0
+29,NANTI,Flag for Native American non-tribal institution,6070,2,100,0
+30,MENONLY,Flag for men-only college,6072,0,100,0
+31,WOMENONLY,Flag for women-only college,6072,0,100,0
+32,RELAFFIL,Religous affiliation of the institution,889,5183,15,85
+33,ADM_RATE,Admission rate,1951,4121,32,68
+34,ADM_RATE_ALL,Admission rate for all campuses rolled up to the 6-digit OPE ID,2057,4015,34,66
+35,SATVR25,25th percentile of SAT scores at the institution (critical reading),1083,4989,18,82
+36,SATVR75,75th percentile of SAT scores at the institution (critical reading),1083,4989,18,82
+37,SATMT25,25th percentile of SAT scores at the institution (math),1083,4989,18,82
+38,SATMT75,75th percentile of SAT scores at the institution (math),1083,4989,18,82
+39,SATVRMID,Midpoint of SAT scores at the institution (critical reading),1083,4989,18,82
+40,SATMTMID,Midpoint of SAT scores at the institution (math),1083,4989,18,82
+41,ACTCM25,25th percentile of the ACT cumulative score,1114,4958,18,82
+42,ACTCM75,75th percentile of the ACT cumulative score,1114,4958,18,82
+43,ACTEN25,25th percentile of the ACT English score,1050,5022,17,83
+44,ACTEN75,75th percentile of the ACT English score,1050,5022,17,83
+45,ACTMT25,25th percentile of the ACT math score,1051,5021,17,83
+46,ACTMT75,75th percentile of the ACT math score,1051,5021,17,83
+47,ACTCMMID,Midpoint of the ACT cumulative score,1114,4958,18,82
+48,ACTENMID,Midpoint of the ACT English score,1050,5022,17,83
+49,ACTMTMID,Midpoint of the ACT math score,1051,5021,17,83
+50,SAT_AVG,Average SAT equivalent score of students admitted,1137,4935,19,81
+51,SAT_AVG_ALL,Average SAT equivalent score of students admitted for all campuses rolled up to the 6-digit OPE ID,1202,4870,20,80
+52,PCIP01,"Percentage of degrees awarded in Agriculture, Agriculture Operations, And Related Sciences.",5783,289,95,5
+53,PCIP03,Percentage of degrees awarded in Natural Resources And Conservation.,5783,289,95,5
+54,PCIP04,Percentage of degrees awarded in Architecture And Related Services.,5783,289,95,5
+55,PCIP05,"Percentage of degrees awarded in Area, Ethnic, Cultural, Gender, And Group Studies.",5783,289,95,5
+56,PCIP09,"Percentage of degrees awarded in Communication, Journalism, And Related Programs.",5783,289,95,5
+57,PCIP10,Percentage of degrees awarded in Communications Technologies/Technicians And Support Services.,5783,289,95,5
+58,PCIP11,Percentage of degrees awarded in Computer And Information Sciences And Support Services.,5783,289,95,5
+59,PCIP12,Percentage of degrees awarded in Personal And Culinary Services.,5783,289,95,5
+60,PCIP13,Percentage of degrees awarded in Education.,5783,289,95,5
+61,PCIP14,Percentage of degrees awarded in Engineering.,5783,289,95,5
+62,PCIP15,Percentage of degrees awarded in Engineering Technologies And Engineering-Related Fields.,5783,289,95,5
+63,PCIP16,"Percentage of degrees awarded in Foreign Languages, Literatures, And Linguistics.",5783,289,95,5
+64,PCIP19,Percentage of degrees awarded in Family And Consumer Sciences/Human Sciences.,5783,289,95,5
+65,PCIP22,Percentage of degrees awarded in Legal Professions And Studies.,5783,289,95,5
+66,PCIP23,Percentage of degrees awarded in English Language And Literature/Letters.,5783,289,95,5
+67,PCIP24,"Percentage of degrees awarded in Liberal Arts And Sciences, General Studies And Humanities.",5783,289,95,5
+68,PCIP25,Percentage of degrees awarded in Library Science.,5783,289,95,5
+69,PCIP26,Percentage of degrees awarded in Biological And Biomedical Sciences.,5783,289,95,5
+70,PCIP27,Percentage of degrees awarded in Mathematics And Statistics.,5783,289,95,5
+71,PCIP29,Percentage of degrees awarded in Military Technologies And Applied Sciences.,5783,289,95,5
+72,PCIP30,Percentage of degrees awarded in Multi/Interdisciplinary Studies.,5783,289,95,5
+73,PCIP31,"Percentage of degrees awarded in Parks, Recreation, Leisure, And Fitness Studies.",5783,289,95,5
+74,PCIP38,Percentage of degrees awarded in Philosophy And Religious Studies.,5783,289,95,5
+75,PCIP39,Percentage of degrees awarded in Theology And Religious Vocations.,5783,289,95,5
+76,PCIP40,Percentage of degrees awarded in Physical Sciences.,5783,289,95,5
+77,PCIP41,Percentage of degrees awarded in Science Technologies/Technicians.,5783,289,95,5
+78,PCIP42,Percentage of degrees awarded in Psychology.,5783,289,95,5
+79,PCIP43,"Percentage of degrees awarded in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.",5783,289,95,5
+80,PCIP44,Percentage of degrees awarded in Public Administration And Social Service Professions.,5783,289,95,5
+81,PCIP45,Percentage of degrees awarded in Social Sciences.,5783,289,95,5
+82,PCIP46,Percentage of degrees awarded in Construction Trades.,5783,289,95,5
+83,PCIP47,Percentage of degrees awarded in Mechanic And Repair Technologies/Technicians.,5783,289,95,5
+84,PCIP48,Percentage of degrees awarded in Precision Production.,5783,289,95,5
+85,PCIP49,Percentage of degrees awarded in Transportation And Materials Moving.,5783,289,95,5
+86,PCIP50,Percentage of degrees awarded in Visual And Performing Arts.,5783,289,95,5
+87,PCIP51,Percentage of degrees awarded in Health Professions And Related Programs.,5783,289,95,5
+88,PCIP52,"Percentage of degrees awarded in Business, Management, Marketing, And Related Support Services.",5783,289,95,5
+89,PCIP54,Percentage of degrees awarded in History.,5783,289,95,5
+90,CIP01CERT1,"Certificate of less than one academic year in Agriculture, Agriculture Operations, And Related Sciences.",6067,5,100,0
+91,CIP01CERT2,"Certificate of at least one but less than two academic years in Agriculture, Agriculture Operations, And Related Sciences.",6067,5,100,0
+92,CIP01ASSOC,"Associate degree in Agriculture, Agriculture Operations, And Related Sciences.",6067,5,100,0
+93,CIP01CERT4,"Award of at least two but less than four academic years in Agriculture, Agriculture Operations, And Related Sciences.",6067,5,100,0
+94,CIP01BACHL,"Bachelor's degree in Agriculture, Agriculture Operations, And Related Sciences.",6067,5,100,0
+95,CIP03CERT1,Certificate of less than one academic year in Natural Resources And Conservation.,6067,5,100,0
+96,CIP03CERT2,Certificate of at least one but less than two academic years in Natural Resources And Conservation.,6067,5,100,0
+97,CIP03ASSOC,Associate degree in Natural Resources And Conservation.,6067,5,100,0
+98,CIP03CERT4,Award of at least two but less than four academic years in Natural Resources And Conservation.,6067,5,100,0
+99,CIP03BACHL,Bachelor's degree in Natural Resources And Conservation.,6067,5,100,0
+100,CIP04CERT1,Certificate of less than one academic year in Architecture And Related Services.,6067,5,100,0
+101,CIP04CERT2,Certificate of at least one but less than two academic years in Architecture And Related Services.,6067,5,100,0
+102,CIP04ASSOC,Associate degree in Architecture And Related Services.,6067,5,100,0
+103,CIP04CERT4,Award of at least two but less than four academic years in Architecture And Related Services.,6067,5,100,0
+104,CIP04BACHL,Bachelor's degree in Architecture And Related Services.,6067,5,100,0
+105,CIP05CERT1,"Certificate of less than one academic year in Area, Ethnic, Cultural, Gender, And Group Studies.",6067,5,100,0
+106,CIP05CERT2,"Certificate of at least one but less than two academic years in Area, Ethnic, Cultural, Gender, And Group Studies.",6067,5,100,0
+107,CIP05ASSOC,"Associate degree in Area, Ethnic, Cultural, Gender, And Group Studies.",6067,5,100,0
+108,CIP05CERT4,"Award of at least two but less than four academic years in Area, Ethnic, Cultural, Gender, And Group Studies.",6067,5,100,0
+109,CIP05BACHL,"Bachelor's degree in Area, Ethnic, Cultural, Gender, And Group Studies.",6067,5,100,0
+110,CIP09CERT1,"Certificate of less than one academic year in Communication, Journalism, And Related Programs.",6067,5,100,0
+111,CIP09CERT2,"Certificate of at least one but less than two academic years in Communication, Journalism, And Related Programs.",6067,5,100,0
+112,CIP09ASSOC,"Associate degree in Communication, Journalism, And Related Programs.",6067,5,100,0
+113,CIP09CERT4,"Award of at least two but less than four academic years in Communication, Journalism, And Related Programs.",6067,5,100,0
+114,CIP09BACHL,"Bachelor's degree in Communication, Journalism, And Related Programs.",6067,5,100,0
+115,CIP10CERT1,Certificate of less than one academic year in Communications Technologies/Technicians And Support Services.,6067,5,100,0
+116,CIP10CERT2,Certificate of at least one but less than two academic years in Communications Technologies/Technicians And Support Services.,6067,5,100,0
+117,CIP10ASSOC,Associate degree in Communications Technologies/Technicians And Support Services.,6067,5,100,0
+118,CIP10CERT4,Award of at least two but less than four academic years in Communications Technologies/Technicians And Support Services.,6067,5,100,0
+119,CIP10BACHL,Bachelor's degree in Communications Technologies/Technicians And Support Services.,6067,5,100,0
+120,CIP11CERT1,Certificate of less than one academic year in Computer And Information Sciences And Support Services.,6067,5,100,0
+121,CIP11CERT2,Certificate of at least one but less than two academic years in Computer And Information Sciences And Support Services.,6067,5,100,0
+122,CIP11ASSOC,Associate degree in Computer And Information Sciences And Support Services.,6067,5,100,0
+123,CIP11CERT4,Award of at least two but less than four academic years in Computer And Information Sciences And Support Services.,6067,5,100,0
+124,CIP11BACHL,Bachelor's degree in Computer And Information Sciences And Support Services.,6067,5,100,0
+125,CIP12CERT1,Certificate of less than one academic year in Personal And Culinary Services.,6067,5,100,0
+126,CIP12CERT2,Certificate of at least one but less than two academic years in Personal And Culinary Services.,6067,5,100,0
+127,CIP12ASSOC,Associate degree in Personal And Culinary Services.,6067,5,100,0
+128,CIP12CERT4,Award of at least two but less than four academic years in Personal And Culinary Services.,6067,5,100,0
+129,CIP12BACHL,Bachelor's degree in Personal And Culinary Services.,6067,5,100,0
+130,CIP13CERT1,Certificate of less than one academic year in Education.,6067,5,100,0
+131,CIP13CERT2,Certificate of at least one but less than two academic years in Education.,6067,5,100,0
+132,CIP13ASSOC,Associate degree in Education.,6067,5,100,0
+133,CIP13CERT4,Award of at least two but less than four academic years in Education.,6067,5,100,0
+134,CIP13BACHL,Bachelor's degree in Education.,6067,5,100,0
+135,CIP14CERT1,Certificate of less than one academic year in Engineering.,6067,5,100,0
+136,CIP14CERT2,Certificate of at least one but less than two academic years in Engineering.,6067,5,100,0
+137,CIP14ASSOC,Associate degree in Engineering.,6067,5,100,0
+138,CIP14CERT4,Award of at least two but less than four academic years in Engineering.,6067,5,100,0
+139,CIP14BACHL,Bachelor's degree in Engineering.,6067,5,100,0
+140,CIP15CERT1,Certificate of less than one academic year in Engineering Technologies And Engineering-Related Fields.,6067,5,100,0
+141,CIP15CERT2,Certificate of at least one but less than two academic years in Engineering Technologies And Engineering-Related Fields.,6067,5,100,0
+142,CIP15ASSOC,Associate degree in Engineering Technologies And Engineering-Related Fields.,6067,5,100,0
+143,CIP15CERT4,Award of at least two but less than four academic years in Engineering Technologies And Engineering-Related Fields.,6067,5,100,0
+144,CIP15BACHL,Bachelor's degree in Engineering Technologies And Engineering-Related Fields.,6067,5,100,0
+145,CIP16CERT1,"Certificate of less than one academic year in Foreign Languages, Literatures, And Linguistics.",6067,5,100,0
+146,CIP16CERT2,"Certificate of at least one but less than two academic years in Foreign Languages, Literatures, And Linguistics.",6067,5,100,0
+147,CIP16ASSOC,"Associate degree in Foreign Languages, Literatures, And Linguistics.",6067,5,100,0
+148,CIP16CERT4,"Award of at least two but less than four academic years in Foreign Languages, Literatures, And Linguistics.",6067,5,100,0
+149,CIP16BACHL,"Bachelor's degree in Foreign Languages, Literatures, And Linguistics.",6067,5,100,0
+150,CIP19CERT1,Certificate of less than one academic year in Family And Consumer Sciences/Human Sciences.,6067,5,100,0
+151,CIP19CERT2,Certificate of at least one but less than two academic years in Family And Consumer Sciences/Human Sciences.,6067,5,100,0
+152,CIP19ASSOC,Associate degree in Family And Consumer Sciences/Human Sciences.,6067,5,100,0
+153,CIP19CERT4,Award of at least two but less than four academic years in Family And Consumer Sciences/Human Sciences.,6067,5,100,0
+154,CIP19BACHL,Bachelor's degree in Family And Consumer Sciences/Human Sciences.,6067,5,100,0
+155,CIP22CERT1,Certificate of less than one academic year in Legal Professions And Studies.,6067,5,100,0
+156,CIP22CERT2,Certificate of at least one but less than two academic years in Legal Professions And Studies.,6067,5,100,0
+157,CIP22ASSOC,Associate degree in Legal Professions And Studies.,6067,5,100,0
+158,CIP22CERT4,Award of at least two but less than four academic years in Legal Professions And Studies.,6067,5,100,0
+159,CIP22BACHL,Bachelor's degree in Legal Professions And Studies.,6067,5,100,0
+160,CIP23CERT1,Certificate of less than one academic year in English Language And Literature/Letters.,6067,5,100,0
+161,CIP23CERT2,Certificate of at least one but less than two academic years in English Language And Literature/Letters.,6067,5,100,0
+162,CIP23ASSOC,Associate degree in English Language And Literature/Letters.,6067,5,100,0
+163,CIP23CERT4,Award of at least two but less than four academic years in English Language And Literature/Letters.,6067,5,100,0
+164,CIP23BACHL,Bachelor's degree in English Language And Literature/Letters.,6067,5,100,0
+165,CIP24CERT1,"Certificate of less than one academic year in Liberal Arts And Sciences, General Studies And Humanities.",6067,5,100,0
+166,CIP24CERT2,"Certificate of at least one but less than two academic years in Liberal Arts And Sciences, General Studies And Humanities.",6067,5,100,0
+167,CIP24ASSOC,"Associate degree in Liberal Arts And Sciences, General Studies And Humanities.",6067,5,100,0
+168,CIP24CERT4,"Award of at least two but less than four academic years in Liberal Arts And Sciences, General Studies And Humanities.",6067,5,100,0
+169,CIP24BACHL,"Bachelor's degree in Liberal Arts And Sciences, General Studies And Humanities.",6067,5,100,0
+170,CIP25CERT1,Certificate of less than one academic year in Library Science.,6067,5,100,0
+171,CIP25CERT2,Certificate of at least one but less than two academic years in Library Science.,6067,5,100,0
+172,CIP25ASSOC,Associate degree in Library Science.,6067,5,100,0
+173,CIP25CERT4,Award of at least two but less than four academic years in Library Science.,6067,5,100,0
+174,CIP25BACHL,Bachelor's degree in Library Science.,6067,5,100,0
+175,CIP26CERT1,Certificate of less than one academic year in Biological And Biomedical Sciences.,6067,5,100,0
+176,CIP26CERT2,Certificate of at least one but less than two academic years in Biological And Biomedical Sciences.,6067,5,100,0
+177,CIP26ASSOC,Associate degree in Biological And Biomedical Sciences.,6067,5,100,0
+178,CIP26CERT4,Award of at least two but less than four academic years in Biological And Biomedical Sciences.,6067,5,100,0
+179,CIP26BACHL,Bachelor's degree in Biological And Biomedical Sciences.,6067,5,100,0
+180,CIP27CERT1,Certificate of less than one academic year in Mathematics And Statistics.,6067,5,100,0
+181,CIP27CERT2,Certificate of at least one but less than two academic years in Mathematics And Statistics.,6067,5,100,0
+182,CIP27ASSOC,Associate degree in Mathematics And Statistics.,6067,5,100,0
+183,CIP27CERT4,Award of at least two but less than four academic years in Mathematics And Statistics.,6067,5,100,0
+184,CIP27BACHL,Bachelor's degree in Mathematics And Statistics.,6067,5,100,0
+185,CIP29CERT1,Certificate of less than one academic year in Military Technologies And Applied Sciences.,6067,5,100,0
+186,CIP29CERT2,Certificate of at least one but less than two academic years in Military Technologies And Applied Sciences.,6067,5,100,0
+187,CIP29ASSOC,Associate degree in Military Technologies And Applied Sciences.,6067,5,100,0
+188,CIP29CERT4,Award of at least two but less than four academic years in Military Technologies And Applied Sciences.,6067,5,100,0
+189,CIP29BACHL,Bachelor's degree in Military Technologies And Applied Sciences.,6067,5,100,0
+190,CIP30CERT1,Certificate of less than one academic year in Multi/Interdisciplinary Studies.,6067,5,100,0
+191,CIP30CERT2,Certificate of at least one but less than two academic years in Multi/Interdisciplinary Studies.,6067,5,100,0
+192,CIP30ASSOC,Associate degree in Multi/Interdisciplinary Studies.,6067,5,100,0
+193,CIP30CERT4,Award of at least two but less than four academic years in Multi/Interdisciplinary Studies.,6067,5,100,0
+194,CIP30BACHL,Bachelor's degree in Multi/Interdisciplinary Studies.,6067,5,100,0
+195,CIP31CERT1,"Certificate of less than one academic year in Parks, Recreation, Leisure, And Fitness Studies.",6067,5,100,0
+196,CIP31CERT2,"Certificate of at least one but less than two academic years in Parks, Recreation, Leisure, And Fitness Studies.",6067,5,100,0
+197,CIP31ASSOC,"Associate degree in Parks, Recreation, Leisure, And Fitness Studies.",6067,5,100,0
+198,CIP31CERT4,"Award of at least two but less than four academic years in Parks, Recreation, Leisure, And Fitness Studies.",6067,5,100,0
+199,CIP31BACHL,"Bachelor's degree in Parks, Recreation, Leisure, And Fitness Studies.",6067,5,100,0
+200,CIP38CERT1,Certificate of less than one academic year in Philosophy And Religious Studies.,6067,5,100,0
+201,CIP38CERT2,Certificate of at least one but less than two academic years in Philosophy And Religious Studies.,6067,5,100,0
+202,CIP38ASSOC,Associate degree in Philosophy And Religious Studies.,6067,5,100,0
+203,CIP38CERT4,Award of at least two but less than four academic years in Philosophy And Religious Studies.,6067,5,100,0
+204,CIP38BACHL,Bachelor's degree in Philosophy And Religious Studies.,6067,5,100,0
+205,CIP39CERT1,Certificate of less than one academic year in Theology And Religious Vocations.,6067,5,100,0
+206,CIP39CERT2,Certificate of at least one but less than two academic years in Theology And Religious Vocations.,6067,5,100,0
+207,CIP39ASSOC,Associate degree in Theology And Religious Vocations.,6067,5,100,0
+208,CIP39CERT4,Award of at least two but less than four academic years in Theology And Religious Vocations.,6067,5,100,0
+209,CIP39BACHL,Bachelor's degree in Theology And Religious Vocations.,6067,5,100,0
+210,CIP40CERT1,Certificate of less than one academic year in Physical Sciences.,6067,5,100,0
+211,CIP40CERT2,Certificate of at least one but less than two academic years in Physical Sciences.,6067,5,100,0
+212,CIP40ASSOC,Associate degree in Physical Sciences.,6067,5,100,0
+213,CIP40CERT4,Award of at least two but less than four academic years in Physical Sciences.,6067,5,100,0
+214,CIP40BACHL,Bachelor's degree in Physical Sciences.,6067,5,100,0
+215,CIP41CERT1,Certificate of less than one academic year in Science Technologies/Technicians.,6067,5,100,0
+216,CIP41CERT2,Certificate of at least one but less than two academic years in Science Technologies/Technicians.,6067,5,100,0
+217,CIP41ASSOC,Associate degree in Science Technologies/Technicians.,6067,5,100,0
+218,CIP41CERT4,Award of at least two but less than four academic years in Science Technologies/Technicians.,6067,5,100,0
+219,CIP41BACHL,Bachelor's degree in Science Technologies/Technicians.,6067,5,100,0
+220,CIP42CERT1,Certificate of less than one academic year in Psychology.,6067,5,100,0
+221,CIP42CERT2,Certificate of at least one but less than two academic years in Psychology.,6067,5,100,0
+222,CIP42ASSOC,Associate degree in Psychology.,6067,5,100,0
+223,CIP42CERT4,Award of at least two but less than four academic years in Psychology.,6067,5,100,0
+224,CIP42BACHL,Bachelor's degree in Psychology.,6067,5,100,0
+225,CIP43CERT1,"Certificate of less than one academic year in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.",6067,5,100,0
+226,CIP43CERT2,"Certificate of at least one but less than two academic years in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.",6067,5,100,0
+227,CIP43ASSOC,"Associate degree in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.",6067,5,100,0
+228,CIP43CERT4,"Award of at least two but less than four academic years in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.",6067,5,100,0
+229,CIP43BACHL,"Bachelor's degree in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.",6067,5,100,0
+230,CIP44CERT1,Certificate of less than one academic year in Public Administration And Social Service Professions.,6067,5,100,0
+231,CIP44CERT2,Certificate of at least one but less than two academic years in Public Administration And Social Service Professions.,6067,5,100,0
+232,CIP44ASSOC,Associate degree in Public Administration And Social Service Professions.,6067,5,100,0
+233,CIP44CERT4,Award of at least two but less than four academic years in Public Administration And Social Service Professions.,6067,5,100,0
+234,CIP44BACHL,Bachelor's degree in Public Administration And Social Service Professions.,6067,5,100,0
+235,CIP45CERT1,Certificate of less than one academic year in Social Sciences.,6067,5,100,0
+236,CIP45CERT2,Certificate of at least one but less than two academic years in Social Sciences.,6067,5,100,0
+237,CIP45ASSOC,Associate degree in Social Sciences.,6067,5,100,0
+238,CIP45CERT4,Award of at least two but less than four academic years in Social Sciences.,6067,5,100,0
+239,CIP45BACHL,Bachelor's degree in Social Sciences.,6067,5,100,0
+240,CIP46CERT1,Certificate of less than one academic year in Construction Trades.,6067,5,100,0
+241,CIP46CERT2,Certificate of at least one but less than two academic years in Construction Trades.,6067,5,100,0
+242,CIP46ASSOC,Associate degree in Construction Trades.,6067,5,100,0
+243,CIP46CERT4,Award of at least two but less than four academic years in Construction Trades.,6067,5,100,0
+244,CIP46BACHL,Bachelor's degree in Construction Trades.,6067,5,100,0
+245,CIP47CERT1,Certificate of less than one academic year in Mechanic And Repair Technologies/Technicians.,6067,5,100,0
+246,CIP47CERT2,Certificate of at least one but less than two academic years in Mechanic And Repair Technologies/Technicians.,6067,5,100,0
+247,CIP47ASSOC,Associate degree in Mechanic And Repair Technologies/Technicians.,6067,5,100,0
+248,CIP47CERT4,Award of at least two but less than four academic years in Mechanic And Repair Technologies/Technicians.,6067,5,100,0
+249,CIP47BACHL,Bachelor's degree in Mechanic And Repair Technologies/Technicians.,6067,5,100,0
+250,CIP48CERT1,Certificate of less than one academic year in Precision Production.,6067,5,100,0
+251,CIP48CERT2,Certificate of at least one but less than two academic years in Precision Production.,6067,5,100,0
+252,CIP48ASSOC,Associate degree in Precision Production.,6067,5,100,0
+253,CIP48CERT4,Award of at least two but less than four academic years in Precision Production.,6067,5,100,0
+254,CIP48BACHL,Bachelor's degree in Precision Production.,6067,5,100,0
+255,CIP49CERT1,Certificate of less than one academic year in Transportation And Materials Moving.,6067,5,100,0
+256,CIP49CERT2,Certificate of at least one but less than two academic years in Transportation And Materials Moving.,6067,5,100,0
+257,CIP49ASSOC,Associate degree in Transportation And Materials Moving.,6067,5,100,0
+258,CIP49CERT4,Award of at least two but less than four academic years in Transportation And Materials Moving.,6067,5,100,0
+259,CIP49BACHL,Bachelor's degree in Transportation And Materials Moving.,6067,5,100,0
+260,CIP50CERT1,Certificate of less than one academic year in Visual And Performing Arts.,6067,5,100,0
+261,CIP50CERT2,Certificate of at least one but less than two academic years in Visual And Performing Arts.,6067,5,100,0
+262,CIP50ASSOC,Associate degree in Visual And Performing Arts.,6067,5,100,0
+263,CIP50CERT4,Award of at least two but less than four academic years in Visual And Performing Arts.,6067,5,100,0
+264,CIP50BACHL,Bachelor's degree in Visual And Performing Arts.,6067,5,100,0
+265,CIP51CERT1,Certificate of less than one academic year in Health Professions And Related Programs.,6067,5,100,0
+266,CIP51CERT2,Certificate of at least one but less than two academic years in Health Professions And Related Programs.,6067,5,100,0
+267,CIP51ASSOC,Associate degree in Health Professions And Related Programs.,6067,5,100,0
+268,CIP51CERT4,Award of at least two but less than four academic years in Health Professions And Related Programs.,6067,5,100,0
+269,CIP51BACHL,Bachelor's degree in Health Professions And Related Programs.,6067,5,100,0
+270,CIP52CERT1,"Certificate of less than one academic year in Business, Management, Marketing, And Related Support Services.",6067,5,100,0
+271,CIP52CERT2,"Certificate of at least one but less than two academic years in Business, Management, Marketing, And Related Support Services.",6067,5,100,0
+272,CIP52ASSOC,"Associate degree in Business, Management, Marketing, And Related Support Services.",6067,5,100,0
+273,CIP52CERT4,"Award of at least two but less than four academic years in Business, Management, Marketing, And Related Support Services.",6067,5,100,0
+274,CIP52BACHL,"Bachelor's degree in Business, Management, Marketing, And Related Support Services.",6067,5,100,0
+275,CIP54CERT1,Certificate of less than one academic year in History.,6067,5,100,0
+276,CIP54CERT2,Certificate of at least one but less than two academic years in History.,6067,5,100,0
+277,CIP54ASSOC,Associate degree in History.,6067,5,100,0
+278,CIP54CERT4,Award of at least two but less than four academic years in History.,6067,5,100,0
+279,CIP54BACHL,Bachelor's degree in History.,6067,5,100,0
+280,DISTANCEONLY,Flag for distance-education-only education,6072,0,100,0
+281,UGDS,Enrollment of undergraduate certificate/degree-seeking students,5788,284,95,5
+282,UGDS_WHITE,Total share of enrollment of undergraduate degree-seeking students who are white,5788,284,95,5
+283,UGDS_BLACK,Total share of enrollment of undergraduate degree-seeking students who are black,5788,284,95,5
+284,UGDS_HISP,Total share of enrollment of undergraduate degree-seeking students who are Hispanic,5788,284,95,5
+285,UGDS_ASIAN,Total share of enrollment of undergraduate degree-seeking students who are Asian,5788,284,95,5
+286,UGDS_AIAN,Total share of enrollment of undergraduate degree-seeking students who are American Indian/Alaska Native,5788,284,95,5
+287,UGDS_NHPI,Total share of enrollment of undergraduate degree-seeking students who are Native Hawaiian/Pacific Islander,5788,284,95,5
+288,UGDS_2MOR,Total share of enrollment of undergraduate degree-seeking students who are two or more races,5788,284,95,5
+289,UGDS_NRA,Total share of enrollment of undergraduate degree-seeking students who are non-resident aliens,5788,284,95,5
+290,UGDS_UNKN,Total share of enrollment of undergraduate degree-seeking students whose race is unknown,5788,284,95,5
+291,PPTUG_EF,"Share of undergraduate, degree-/certificate-seeking students who are part-time",5768,304,95,5
+292,CURROPER,"Flag for currently operating institution, 0=closed, 1=operating",6072,0,100,0
+293,NPT4_PUB,Average net price for Title IV institutions (public institutions),1823,4249,30,70
+294,NPT4_PRIV,Average net price for Title IV institutions (private for-profit and nonprofit institutions),3538,2534,58,42
+295,NPT41_PUB,"Average net price for $0-$30,000 family income (public institutions)",1820,4252,30,70
+296,NPT42_PUB,"Average net price for $30,001-$48,000 family income (public institutions)",1743,4329,29,71
+297,NPT43_PUB,"Average net price for $48,001-$75,000 family income (public institutions)",1695,4377,28,72
+298,NPT44_PUB,"Average net price for $75,001-$110,000 family income (public institutions)",1538,4534,25,75
+299,NPT45_PUB,"Average net price for $110,000+ family income (public institutions)",1302,4770,21,79
+300,NPT41_PRIV,"Average net price for $0-$30,000 family income (private for-profit and nonprofit institutions)",3480,2592,57,43
+301,NPT42_PRIV,"Average net price for $30,001-$48,000 family income (private for-profit and nonprofit institutions)",2874,3198,47,53
+302,NPT43_PRIV,"Average net price for $48,001-$75,000 family income (private for-profit and nonprofit institutions)",2600,3472,43,57
+303,NPT44_PRIV,"Average net price for $75,001-$110,000 family income (private for-profit and nonprofit institutions)",2143,3929,35,65
+304,NPT45_PRIV,"Average net price for $110,000+ family income (private for-profit and nonprofit institutions)",1802,4270,30,70
+305,NPT4_048_PUB,"Average net price for $0-$48,000 family income (public institutions)",1822,4250,30,70
+306,NPT4_048_PRIV,"Average net price for $0-$48,000 family income (private for-profit and nonprofit institutions)",3515,2557,58,42
+307,NPT4_3075_PUB,"Average net price for $30,001-$75,000 family income (public institutions)",1762,4310,29,71
+308,NPT4_3075_PRIV,"Average net price for $30,001-$75,000 family income (private for-profit and nonprofit institutions)",2991,3081,49,51
+309,NPT4_75UP_PUB,"Average net price for $75,000+ family income (public institutions)",1557,4515,26,74
+310,NPT4_75UP_PRIV,"Average net price for $75,000+ family income (private for-profit and nonprofit institutions)",2288,3784,38,62
+311,NUM4_PUB,Number of Title IV students (public institutions),1823,4249,30,70
+312,NUM4_PRIV,Number of Title IV students (private for-profit and nonprofit institutions),3542,2530,58,42
+313,NUM41_PUB,"Number of Title IV students, $0-$30,000 family income (public institutions)",1823,4249,30,70
+314,NUM42_PUB,"Number of Title IV students, $30,001-$48,000 family income (public institutions)",1823,4249,30,70
+315,NUM43_PUB,"Number of Title IV students, $48,001-$75,000 family income (public institutions)",1823,4249,30,70
+316,NUM44_PUB,"Number of Title IV students, $75,001-$110,000 family income (public institutions)",1823,4249,30,70
+317,NUM45_PUB,"Number of Title IV students, $110,000+ family income (public institutions)",1823,4249,30,70
+318,NUM41_PRIV,"Number of Title IV students, $0-$30,000 family income (private for-profit and nonprofit institutions)",3542,2530,58,42
+319,NUM42_PRIV,"Number of Title IV students, $30,001-$48,000 family income (private for-profit and nonprofit institutions)",3542,2530,58,42
+320,NUM43_PRIV,"Number of Title IV students, $48,001-$75,000 family income (private for-profit and nonprofit institutions)",3542,2530,58,42
+321,NUM44_PRIV,"Number of Title IV students, $75,001-$110,000 family income (private for-profit and nonprofit institutions)",3542,2530,58,42
+322,NUM45_PRIV,"Number of Title IV students, $110,000+ family income (private for-profit and nonprofit institutions)",3542,2530,58,42
+323,COSTT4_A,Average cost of attendance (academic year institutions),3290,2782,54,46
+324,COSTT4_P,Average cost of attendance (program-year institutions),2071,4001,34,66
+325,TUITIONFEE_IN,In-state tuition and fees,3419,2653,56,44
+326,TUITIONFEE_OUT,Out-of-state tuition and fees,3419,2653,56,44
+327,TUITIONFEE_PROG,Tuition and fees for program-year institutions,2186,3886,36,64
+328,TUITFTE,Net tuition revenue per full-time equivalent student,6050,22,100,0
+329,INEXPFTE,Instructional expenditures per full-time equivalent student,6050,22,100,0
+330,AVGFACSAL,Average faculty salary,3883,2189,64,36
+331,PFTFAC,Proportion of faculty that is full-time,3507,2565,58,42
+332,PCTPELL,Percentage of undergraduates who receive a Pell Grant,5765,307,95,5
+333,C150_4,"Completion rate for first-time, full-time students at four-year institutions (150% of expected time to completion)",2247,3825,37,63
+334,C150_L4,"Completion rate for first-time, full-time students at less-than-four-year institutions (150% of expected time to completion)",3177,2895,52,48
+335,PFTFTUG1_EF,"Share of entering undergraduate students who are first-time, full-time degree-/certificate-seeking undergraduate students",5478,594,90,10
+336,D150_4,Adjusted cohort count for completion rate at four-year institutions (denominator of 150% completion rate),2247,3825,37,63
+337,D150_L4,Adjusted cohort count for completion rate at less-than-four-year institutions (denominator of 150% completion rate),3177,2895,52,48
+338,C150_4_WHITE,"Completion rate for first-time, full-time students at four-year institutions (150% of expected time to completion) for white students",2120,3952,35,65
+339,C150_4_BLACK,"Completion rate for first-time, full-time students at four-year institutions (150% of expected time to completion) for black students",1945,4127,32,68
+340,C150_4_HISP,"Completion rate for first-time, full-time students at four-year institutions (150% of expected time to completion) for Hispanic students",2011,4061,33,67
+341,C150_4_ASIAN,"Completion rate for first-time, full-time students at four-year institutions (150% of expected time to completion) for Asian students",1728,4344,28,72
+342,C150_4_AIAN,"Completion rate for first-time, full-time students at four-year institutions (150% of expected time to completion) for American Indian/Alaska Native students",1334,4738,22,78
+343,C150_4_NHPI,"Completion rate for first-time, full-time students at four-year institutions (150% of expected time to completion) for Native Hawaiian/Pacific Islander students",896,5176,15,85
+344,C150_4_2MOR,"Completion rate for first-time, full-time students at four-year institutions (150% of expected time to completion) for students of two-or-more-races",1702,4370,28,72
+345,C150_4_NRA,"Completion rate for first-time, full-time students at four-year institutions (150% of expected time to completion) for non-resident alien students",1561,4511,26,74
+346,C150_4_UNKN,"Completion rate for first-time, full-time students at four-year institutions (150% of expected time to completion) for students whose race is unknown",1649,4423,27,73
+347,C150_L4_WHITE,"Completion rate for first-time, full-time students at less-than-four-year institutions (150% of expected time to completion) for white students",1512,4560,25,75
+348,C150_L4_BLACK,"Completion rate for first-time, full-time students at less-than-four-year institutions (150% of expected time to completion) for black students",1411,4661,23,77
+349,C150_L4_HISP,"Completion rate for first-time, full-time students at less-than-four-year institutions (150% of expected time to completion) for Hispanic students",1413,4659,23,77
+350,C150_L4_ASIAN,"Completion rate for first-time, full-time students at less-than-four-year institutions (150% of expected time to completion) for Asian students",1119,4953,18,82
+351,C150_L4_AIAN,"Completion rate for first-time, full-time students at less-than-four-year institutions (150% of expected time to completion) for American Indian/Alaska Native students",938,5134,15,85
+352,C150_L4_2MOR,"Completion rate for first-time, full-time students at less-than-four-year institutions (150% of expected time to completion) for students of two-or-more-races",1185,4887,20,80
+353,C150_L4_UNKN,"Completion rate for first-time, full-time students at less-than-four-year institutions (150% of expected time to completion) for students whose race is unknown",999,5073,16,84
+354,C200_4,"Completion rate for first-time, full-time bachelor's-degree-seeking students at four-year institutions (200% of expected time to completion)",1937,4135,32,68
+355,C200_L4,"Completion rate for first-time, full-time students at less-than-four-year institutions (200% of expected time to completion)",3101,2971,51,49
+356,D200_4,Adjusted cohort count for completion rate at four-year institutions (denominator of 200% completion rate),1937,4135,32,68
+357,D200_L4,Adjusted cohort count for completion rate at less-than-four-year institutions (denominator of 200% completion rate),3101,2971,51,49
+358,RET_FT4,"First-time, full-time student retention rate at four-year institutions",2053,4019,34,66
+359,RET_FTL4,"First-time, full-time student retention rate at less-than-four-year institutions",3093,2979,51,49
+360,RET_PT4,"First-time, part-time student retention rate at four-year institutions",1261,4811,21,79
+361,RET_PTL4,"First-time, part-time student retention rate at less-than-four-year institutions",1700,4372,28,72
+362,PCTFLOAN,Percent of all undergraduate students receiving a federal student loan,5765,307,95,5
+363,CDR3,Three-year cohort default rate,5210,862,86,14
+364,C100_4,"Completion rate for first-time, full-time students at four-year institutions (100% of expected time to completion)",1988,4084,33,67
+365,D100_4,Adjusted cohort count for completion rate at four-year institutions (denominator of 100% completion rate),1988,4084,33,67
+366,C100_L4,"Completion rate for first-time, full-time students at less-than-four-year institutions (100% of expected time to completion)",3177,2895,52,48
+367,D100_L4,Adjusted cohort count for completion rate at less-than-four-year institutions (denominator of 100% completion rate),3177,2895,52,48
+368,TRANS_4,"Transfer rate for first-time, full-time students at four-year institutions (within 150% of expected time to completion/6 years)",2247,3825,37,63
+369,DTRANS_4,Adjusted cohort count for transfer rate at four-year institutions (denominator of 150% transfer rate),2247,3825,37,63
+370,TRANS_L4,"Transfer rate for first-time, full-time students at less-than-four-year institutions (150% of expected time to completion)",3177,2895,52,48
+371,DTRANS_L4,Adjusted cohort count for transfer rate at less-than-four-year institutions (denominator of 150% transfer rate),3177,2895,52,48
+372,ICLEVEL,Level of institution,6072,0,100,0
+373,UGDS_MEN,Total share of enrollment of undergraduate degree-seeking students who are men,5788,284,95,5
+374,UGDS_WOMEN,Total share of enrollment of undergraduate degree-seeking students who are women,5788,284,95,5
+375,CDR3_DENOM,Number of students in the cohort for the three-year cohort default rate,5210,862,86,14
+376,OPENADMP,Open admissions policy indicator,5659,413,93,7
+377,D_PCTPELL_PCTFLOAN,Number of undergraduate students (denominator percent receiving a pell grant or federal student loan),5765,307,95,5
+378,UGNONDS,Number of non-degree-seeking undergraduate students,2764,3308,46,54
+379,GRADS,Number of graduate students,2009,4063,33,67
+380,D150_4_WHITE,Adjusted cohort count for completion rate of White students at four-year institutions (denominator of 150% completion rate),2247,3825,37,63
+381,D150_4_BLACK,Adjusted cohort count for completion rate of Black/African American students at four-year institutions (denominator of 150% completion rate),2247,3825,37,63
+382,D150_4_HISP,Adjusted cohort count for completion rate of Hispanic students at four-year institutions (denominator of 150% completion rate),2247,3825,37,63
+383,D150_4_ASIAN,Adjusted cohort count for completion rate of Asian students at four-year institutions (denominator of 150% completion rate),2247,3825,37,63
+384,D150_4_AIAN,Adjusted cohort count for completion rate of American Indian/Alaska Native students at four-year institutions (denominator of 150% completion rate),2247,3825,37,63
+385,D150_4_NHPI,Adjusted cohort count for completion rate of Native Hawaiian/Pacific Islander students at four-year institutions (denominator of 150% completion rate),2247,3825,37,63
+386,D150_4_2MOR,Adjusted cohort count for completion rate of students of Two or More Races at four-year institutions (denominator of 150% completion rate),2247,3825,37,63
+387,D150_4_NRA,Adjusted cohort count for completion rate of Nonresident Alien students at four-year institutions (denominator of 150% completion rate),2247,3825,37,63
+388,D150_4_UNKN,Adjusted cohort count for completion rate of students of Unknown race at four-year institutions (denominator of 150% completion rate),2247,3825,37,63
+389,D150_L4_WHITE,Adjusted cohort count for completion rate of White students at less-than-four-year institutions (denominator of 150% completion rate),1561,4511,26,74
+390,D150_L4_BLACK,Adjusted cohort count for completion rate of Black/African American students at less-than-four-year institutions (denominator of 150% completion rate),1561,4511,26,74
+391,D150_L4_HISP,Adjusted cohort count for completion rate of Hispanic students at less-than-four-year institutions (denominator of 150% completion rate),1561,4511,26,74
+392,D150_L4_ASIAN,Adjusted cohort count for completion rate of Asian students at less-than-four-year institutions (denominator of 150% completion rate),1561,4511,26,74
+393,D150_L4_AIAN,Adjusted cohort count for completion rate of American Indian/Alaska Native students at less-than-four-year institutions (denominator of 150% completion rate),1561,4511,26,74
+394,D150_L4_NHPI,Adjusted cohort count for completion rate of Native Hawaiian/Pacific Islander students at less-than-four-year institutions (denominator of 150% completion rate),1561,4511,26,74
+395,D150_L4_2MOR,Adjusted cohort count for completion rate of students of Two or More Races at less-than-four-year institutions (denominator of 150% completion rate),1561,4511,26,74
+396,D150_L4_NRA,Adjusted cohort count for completion rate of Nonresident Alien students at less-than-four-year institutions (denominator of 150% completion rate),1561,4511,26,74
+397,D150_L4_UNKN,Adjusted cohort count for completion rate of students of Unknown race at less-than-four-year institutions (denominator of 150% completion rate),1561,4511,26,74
+398,ACCREDCODE,Code corresponding to accreditor (as captured from PEPS),5886,186,97,3
+399,OMACHT6_FTFT,"Adjusted cohort count of full-time, first-time students (denominator for the percentage receiving an award within 6 years of entry)",3641,2431,60,40
+400,OMAWDP6_FTFT,"Percentage of full-time, first-time student receiving an award within 6 years of entry",3516,2556,58,42
+401,OMACHT8_FTFT,"Adjusted cohort count of full-time, first-time students (denominator for the 8-year outcomes percentages)",3641,2431,60,40
+402,OMAWDP8_FTFT,"Percentage of full-time, first-time student receiving an award within 8 years of entry",3516,2556,58,42
+403,OMENRYP8_FTFT,"Percentage of full-time, first-time students that did not receive an award and are still enrolled at this institution 8 years after entry",3516,2556,58,42
+404,OMENRAP8_FTFT,"Percentage of full-time, first-time students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry",3516,2556,58,42
+405,OMENRUP8_FTFT,"Percentage of full-time, first-time students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry",3516,2556,58,42
+406,OMACHT6_PTFT,"Adjusted cohort count of part-time, first-time students (denominator for the percentage receiving an award within 6 years of entry)",3641,2431,60,40
+407,OMAWDP6_PTFT,"Percentage of part-time, first-time student receiving an award within 6 years of entry",2665,3407,44,56
+408,OMACHT8_PTFT,"Adjusted cohort count of part-time, first-time students (denominator for the 8-year outcomes percentages)",3641,2431,60,40
+409,OMAWDP8_PTFT,"Percentage of part-time, first-time student receiving an award within 8 years of entry",2665,3407,44,56
+410,OMENRYP8_PTFT,"Percentage of part-time, first-time students that did not receive an award and are still enrolled at this institution 8 years after entry",2665,3407,44,56
+411,OMENRAP8_PTFT,"Percentage of part-time, first-time students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry",2665,3407,44,56
+412,OMENRUP8_PTFT,"Percentage of part-time, first-time students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry",2665,3407,44,56
+413,OMACHT6_FTNFT,"Adjusted cohort count of full-time, not first-time students (denominator for the percentage receiving an award within 6 years of entry)",3641,2431,60,40
+414,OMAWDP6_FTNFT,"Percentage of full-time, not first-time student receiving an award within 6 years of entry",3534,2538,58,42
+415,OMACHT8_FTNFT,"Adjusted cohort count of full-time, not first-time students (denominator for the 8-year outcomes percentages)",3641,2431,60,40
+416,OMAWDP8_FTNFT,"Percentage of full-time, not first-time student receiving an award within 8 years of entry",3534,2538,58,42
+417,OMENRYP8_FTNFT,"Percentage of full-time, not first-time students that did not receive an award and are still enrolled at this institution 8 years after entry",3534,2538,58,42
+418,OMENRAP8_FTNFT,"Percentage of full-time, not first-time students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry",3534,2538,58,42
+419,OMENRUP8_FTNFT,"Percentage of full-time, not first-time students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry",3534,2538,58,42
+420,OMACHT6_PTNFT,"Adjusted cohort count of part-time, not first-time students (denominator for the percentage receiving an award within 6 years of entry)",3641,2431,60,40
+421,OMAWDP6_PTNFT,"Percentage of part-time, not first-time student receiving an award within 6 years of entry",2914,3158,48,52
+422,OMACHT8_PTNFT,"Adjusted cohort count of part-time, not first-time students (denominator for the 8-year outcomes percentages)",3641,2431,60,40
+423,OMAWDP8_PTNFT,"Percentage of part-time, not first-time student receiving an award within 8 years of entry",2914,3158,48,52
+424,OMENRYP8_PTNFT,"Percentage of part-time, not first-time students that did not receive an award and are still enrolled at this institution 8 years after entry",2914,3158,48,52
+425,OMENRAP8_PTNFT,"Percentage of part-time, not first-time students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry",2914,3158,48,52
+426,OMENRUP8_PTNFT,"Percentage of part-time, not first-time students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry",2914,3158,48,52
+427,C150_4_PELL,"Completion rate for first-time, full-time students receiving a Pell Grant during their first year of college at four-year institutions (150% of expected time to completion)",2157,3915,36,64
+428,D150_4_PELL,Adjusted cohort count for Pell Grant recipient completion rate at four-year institutions (denominator of 150% Pell Grant recipient completion rate),2157,3915,36,64
+429,C150_L4_PELL,"Completion rate for first-time, full-time students receiving a Pell Grant during their first year of college at less-than-four-year institutions (150% of expected time to completion)",3085,2987,51,49
+430,D150_L4_PELL,Adjusted cohort count for Pell Grant recipient completion rate at less-than-four-year institutions (denominator of 150% Pell Grant recipient completion rate),3085,2987,51,49
+431,C150_4_LOANNOPELL,"Completion rate for first-time, full-time students receiving a Direct Subsidized Loan but not a Pell Grant during their first year of college at four-year institutions (150% of expected time to completion)",1965,4107,32,68
+432,D150_4_LOANNOPELL,Adjusted cohort count for Direct Subsidized Loan recipients who did not receive a Pell Grant completion rate at four-year institutions (denominator of 150% Direct Subsidized Loan recipient who did not receive a Pell Grant completion rate),1965,4107,32,68
+433,C150_L4_LOANNOPELL,"Completion rate for first-time, full-time students receiving a Direct Subsidized Loan but not a Pell Grant during their first year of college at less-than-four-year institutions (150% of expected time to completion)",2294,3778,38,62
+434,D150_L4_LOANNOPELL,Adjusted cohort count for Direct Subsidized Loan recipients who did not receive a Pell Grant completion rate at less-than-four-year institutions (denominator of 150% Direct Subsidized Loan recipient who did not receive a Pell Grant completion rate),2294,3778,38,62
+435,C150_4_NOLOANNOPELL,"Completion rate for first-time, full-time students receiving neither a Direct Subsidized Loan or a Pell Grant during their first year of college at four-year institutions (150% of expected time to completion)",2165,3907,36,64
+436,D150_4_NOLOANNOPELL,Adjusted cohort count for those who did not receive a Direct Subsidized Loan or a Pell Grant completion rate at four-year institutions (denominator of 150% did not receive a Direct Subsidized Loan or Pell Grant completion rate),2165,3907,36,64
+437,C150_L4_NOLOANNOPELL,"Completion rate for first-time, full-time students receiving neither a Direct Subsidized Loan or a Pell Grant during their first year of college at less-than-four-year institutions (150% of expected time to completion)",2792,3280,46,54
+438,D150_L4_NOLOANNOPELL,Adjusted cohort count for those who did not receive a Direct Subsidized Loan or a Pell Grant completion rate at less-than-four-year institutions (denominator of 150% did not receive a Direct Subsidized Loan or Pell Grant completion rate),2792,3280,46,54
+439,SCHTYPE,"Control of institution, per PEPS",5866,206,97,3
+440,OPEFLAG,Title IV eligibility type,6072,0,100,0
+441,PRGMOFR,Number of programs offered,2231,3841,37,63
+442,CIPCODE1,CIP code of largest program,2231,3841,37,63
+443,CIPCODE2,CIP code of program #2,1852,4220,31,69
+444,CIPCODE3,CIP code of program #3,1500,4572,25,75
+445,CIPCODE4,CIP code of program #4,1159,4913,19,81
+446,CIPCODE5,CIP code of program #5,850,5222,14,86
+447,CIPCODE6,CIP code of program #6,636,5436,10,90
+448,CIPTFBS1,"Tuition, fees, books, and supply charges for largest program (full program)",2231,3841,37,63
+449,CIPTFBS2,"Tuition, fees, books, and supply charges for program #2 (full program)",1851,4221,30,70
+450,CIPTFBS3,"Tuition, fees, books, and supply charges for program #3 (full program)",1496,4576,25,75
+451,CIPTFBS4,"Tuition, fees, books, and supply charges for program #4 (full program)",1157,4915,19,81
+452,CIPTFBS5,"Tuition, fees, books, and supply charges for program #5 (full program)",850,5222,14,86
+453,CIPTFBS6,"Tuition, fees, books, and supply charges for program #6 (full program)",636,5436,10,90
+454,CIPTFBSANNUAL1,"Tuition, fees, books, and supply charges for largest program (annualized based on institution's academic year)",2229,3843,37,63
+455,CIPTFBSANNUAL2,"Tuition, fees, books, and supply charges for program #2 (annualized based on institution's academic year)",1849,4223,30,70
+456,CIPTFBSANNUAL3,"Tuition, fees, books, and supply charges for program #3 (annualized based on institution's academic year)",1494,4578,25,75
+457,CIPTFBSANNUAL4,"Tuition, fees, books, and supply charges for program #4 (annualized based on institution's academic year)",1155,4917,19,81
+458,CIPTFBSANNUAL5,"Tuition, fees, books, and supply charges for program #5 (annualized based on institution's academic year)",849,5223,14,86
+459,CIPTFBSANNUAL6,"Tuition, fees, books, and supply charges for program #6 (annualized based on institution's academic year)",635,5437,10,90
+460,MTHCMP1,Average number of months needed to complete largest program,2231,3841,37,63
+461,MTHCMP2,Average number of months needed to complete program #2,1852,4220,31,69
+462,MTHCMP3,Average number of months needed to complete program #3,1500,4572,25,75
+463,MTHCMP4,Average number of months needed to complete program #4,1159,4913,19,81
+464,MTHCMP5,Average number of months needed to complete program #5,850,5222,14,86
+465,MTHCMP6,Average number of months needed to complete program #6,636,5436,10,90
+466,OMENRYP_ALL,Percentage of all students that did not receive an award and are still enrolled at this institution 8 years after entry,3641,2431,60,40
+467,OMENRAP_ALL,Percentage of all students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry,3641,2431,60,40
+468,OMAWDP8_ALL,Percentage of all student receiving an award within 8 years of entry,3641,2431,60,40
+469,OMENRUP_ALL,Percentage of all students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry,3641,2431,60,40
+470,OMENRYP_FIRSTTIME,Percentage of first-time students that did not receive an award and are still enrolled at this institution 8 years after entry,3533,2539,58,42
+471,OMENRAP_FIRSTTIME,Percentage of first-time students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry,3533,2539,58,42
+472,OMAWDP8_FIRSTTIME,Percentage of first-time student receiving an award within 8 years of entry,3533,2539,58,42
+473,OMENRUP_FIRSTTIME,Percentage of first-time students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry,3533,2539,58,42
+474,OMENRYP_NOTFIRSTTIME,Percentage of not first-time students that did not receive an award and are still enrolled at this institution 8 years after entry,3556,2516,59,41
+475,OMENRAP_NOTFIRSTTIME,Percentage of not first-time students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry,3556,2516,59,41
+476,OMAWDP8_NOTFIRSTTIME,Percentage of not first-time student receiving an award within 8 years of entry,3556,2516,59,41
+477,OMENRUP_NOTFIRSTTIME,Percentage of not first-time students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry,3556,2516,59,41
+478,OMENRYP_FULLTIME,Percentage of full-time students that did not receive an award and are still enrolled at this institution 8 years after entry,3624,2448,60,40
+479,OMENRAP_FULLTIME,Percentage of full-time students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry,3624,2448,60,40
+480,OMAWDP8_FULLTIME,Percentage of full-time student receiving an award within 8 years of entry,3624,2448,60,40
+481,OMENRUP_FULLTIME,Percentage of full-time students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry,3624,2448,60,40
+482,OMENRYP_PARTTIME,Percentage of part-time students that did not receive an award and are still enrolled at this institution 8 years after entry,3003,3069,49,51
+483,OMENRAP_PARTTIME,Percentage of part-time students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry,3003,3069,49,51
+484,OMAWDP8_PARTTIME,Percentage of part-time student receiving an award within 8 years of entry,3003,3069,49,51
+485,OMENRUP_PARTTIME,Percentage of part-time students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry,3003,3069,49,51
+486,FTFTPCTPELL,"Percentage of full-time, first-time degree/certificate-seeking undergraduate students awarded a Pell Grant",5506,566,91,9
+487,FTFTPCTFLOAN,"Percentage of full-time, first-time degree/certificate-seeking undergraduate students awarded a federal loan",5506,566,91,9
+488,UG12MN,Unduplicated count of undergraduate students enrolled during a 12 month period,5776,296,95,5
+489,G12MN,Unduplicated count of graduate students enrolled during a 12 month period,1999,4073,33,67
+490,SCUGFFN,"Number of full-time, first-time degree/certificate-seeking undergraduate students (denominator for percent full-time, first-time degree/certificate-seeking undergraduates receiving a pell grant or federal student loan)",5774,298,95,5
+491,BOOKSUPPLY,Cost of attendance: estimated books and supplies,3366,2706,55,45
+492,ROOMBOARD_ON,Cost of attendance: on-campus room and board,1974,4098,33,67
+493,OTHEREXPENSE_ON,Cost of attendance: on-campus other expenses,1977,4095,33,67
+494,ROOMBOARD_OFF,Cost of attendance: off-campus room and board,3346,2726,55,45
+495,OTHEREXPENSE_OFF,Cost of attendance: off-campus other expenses,3346,2726,55,45
+496,OTHEREXPENSE_FAM,Cost of attendance: with-family other expenses,3350,2722,55,45
+497,ENDOWBEGIN,Value of school's endowment at the beginning of the fiscal year,2687,3385,44,56
+498,ENDOWEND,Value of school's endowment at the end of the fiscal year,2687,3385,44,56
+499,DOLPROVIDER,DOL approved training provider indicator,6072,0,100,0
+500,ADMCON7,Test score requirements for admission,1976,4096,33,67
+501,MDCOMP_PD,Median completion rate amongst insitutions with the same predominant degree category ,5781,291,95,5
+502,MDCOST_PD,Median average net price amongst insitituions with the same predominant degree category,5781,291,95,5
+503,MDEARN_PD,Median earnings of students working and not enrolled 10 years after entry,5781,291,95,5
+504,MDCOMP_ALL,Overall median of completion rate,6072,0,100,0
+505,MDCOST_ALL,Overall median for average net price ,6072,0,100,0
+506,MDEARN_ALL,Overall median earnings of students working and not enrolled 10 years after entry,6072,0,100,0
+507,OMENRYP_PELL_ALL,Percentage of all Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry,3513,2559,58,42
+508,OMENRAP_PELL_ALL,Percentage of all Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry,3513,2559,58,42
+509,OMAWDP8_PELL_ALL,Percentage of all Pell Grant recipient students receiving an award within 8 years of entry,3513,2559,58,42
+510,OMENRUP_PELL_ALL,Percentage of all Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry,3513,2559,58,42
+511,OMENRYP_PELL_FIRSTTIME,Percentage of first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry,3421,2651,56,44
+512,OMENRAP_PELL_FIRSTTIME,Percentage of first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry,3421,2651,56,44
+513,OMAWDP8_PELL_FIRSTTIME,Percentage of first-time Pell Grant recipient students receiving an award within 8 years of entry,3421,2651,56,44
+514,OMENRUP_PELL_FIRSTTIME,Percentage of first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry,3421,2651,56,44
+515,OMENRYP_PELL_NOTFIRSTTIME,Percentage of not first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry,3412,2660,56,44
+516,OMENRAP_PELL_NOTFIRSTTIME,Percentage of not first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry,3412,2660,56,44
+517,OMAWDP8_PELL_NOTFIRSTTIME,Percentage of not first-time Pell Grant recipient students receiving an award within 8 years of entry,3412,2660,56,44
+518,OMENRUP_PELL_NOTFIRSTTIME,Percentage of not first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry,3412,2660,56,44
+519,OMENRYP_PELL_FULLTIME,Percentage of full-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry,3502,2570,58,42
+520,OMENRAP_PELL_FULLTIME,Percentage of full-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry,3502,2570,58,42
+521,OMAWDP8_PELL_FULLTIME,Percentage of full-time Pell Grant recipient students receiving an award within 8 years of entry,3502,2570,58,42
+522,OMENRUP_PELL_FULLTIME,Percentage of full-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry,3502,2570,58,42
+523,OMENRYP_PELL_PARTTIME,Percentage of part-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry,2803,3269,46,54
+524,OMENRAP_PELL_PARTTIME,Percentage of part-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry,2803,3269,46,54
+525,OMAWDP8_PELL_PARTTIME,Percentage of part-time Pell Grant recipient students receiving an award within 8 years of entry,2803,3269,46,54
+526,OMENRUP_PELL_PARTTIME,Percentage of part-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry,2803,3269,46,54
+527,OMACHT8_PELL_FTFT,"Adjusted cohort count of full-time, first-time Pell Grant recipient students (denominator for the 8-year outcomes percentages)",3641,2431,60,40
+528,OMAWDP8_PELL_FTFT,"Percentage of full-time, first-time Pell Grant recipient students receiving an award within 8 years of entry",3402,2670,56,44
+529,OMENRYP8_PELL_FTFT,"Percentage of full-time, first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry",3402,2670,56,44
+530,OMENRAP8_PELL_FTFT,"Percentage of full-time, first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry",3402,2670,56,44
+531,OMENRUP8_PELL_FTFT,"Percentage of full-time, first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry",3402,2670,56,44
+532,OMACHT8_PELL_PTFT,"Adjusted cohort count of part-time, first-time Pell Grant recipient students (denominator for the 8-year outcomes percentages)",3641,2431,60,40
+533,OMAWDP8_PELL_PTFT,"Percentage of part-time, first-time Pell Grant recipient students receiving an award within 8 years of entry",2367,3705,39,61
+534,OMENRYP8_PELL_PTFT,"Percentage of part-time, first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry",2367,3705,39,61
+535,OMENRAP8_PELL_PTFT,"Percentage of part-time, first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry",2367,3705,39,61
+536,OMENRUP8_PELL_PTFT,"Percentage of part-time, first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry",2367,3705,39,61
+537,OMACHT8_PELL_FTNFT,"Adjusted cohort count of full-time, not first-time Pell Grant recipient students (denominator for the 8-year outcomes percentages)",3641,2431,60,40
+538,OMAWDP8_PELL_FTNFT,"Percentage of full-time, not first-time Pell Grant recipient students receiving an award within 8 years of entry",3394,2678,56,44
+539,OMENRYP8_PELL_FTNFT,"Percentage of full-time, not first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry",3394,2678,56,44
+540,OMENRAP8_PELL_FTNFT,"Percentage of full-time, not first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry",3394,2678,56,44
+541,OMENRUP8_PELL_FTNFT,"Percentage of full-time, not first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry",3394,2678,56,44
+542,OMACHT8_PELL_PTNFT,"Adjusted cohort count of part-time, not first-time Pell Grant recipient students (denominator for the 8-year outcomes percentages)",3641,2431,60,40
+543,OMAWDP8_PELL_PTNFT,"Percentage of part-time, not first-time Pell Grant recipient students receiving an award within 8 years of entry",2705,3367,45,55
+544,OMENRYP8_PELL_PTNFT,"Percentage of part-time, not first-time Pell Grant recipient students that did not receive an award and are still enrolled at this institution 8 years after entry",2705,3367,45,55
+545,OMENRAP8_PELL_PTNFT,"Percentage of part-time, not first-time Pell Grant recipient students that did not receive an award and enrolled at another institution after leaving this institution within 8 years of entry",2705,3367,45,55
+546,OMENRUP8_PELL_PTNFT,"Percentage of part-time, not first-time Pell Grant recipient students that did not receive an award and whose enrollment status is unknown after leaving this institution within 8 years of entry",2705,3367,45,55

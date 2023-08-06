@@ -2,22 +2,10 @@
 
 ```
 - readme.md
----- DESCRIPTION OF STRUCTURE
 ----------------
 ----------------
-- document 1
----- DESCRIPTION
----- ORDER
----------------- 
-----------------
-- document 2
----- DESCRIPTION
----- ORDER
----------------- 
-----------------
-- document 3
----- DESCRIPTION
----- ORDER
+- Mapping Post-Secondary Transfer Rates.pdf
+---- Poster of my analysis presented at KSU's Fall Analytics Day 2023. Awarded 3rd place Graduate Research.
 ---------------- 
 ```
 
